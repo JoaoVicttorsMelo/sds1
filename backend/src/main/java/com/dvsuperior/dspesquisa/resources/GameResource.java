@@ -22,9 +22,4 @@ public class GameResource {
 		List<GameDTO> list = service.findAll();
 		return ResponseEntity.ok().body(list);
 	}
-
-	public GameResource() {
-		// TODO Auto-generated constructor stub
-	}
-
 }
