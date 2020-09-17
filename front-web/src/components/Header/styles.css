@@ -1,5 +1,5 @@
 .main-header {
-    height: 30px;
+    height: 20px;
     padding: 20px 40px;
     display: flex;
     background-color: var(--color-darkslategray);
@@ -16,7 +16,7 @@
   }
   
   .logo-text-2 {
-    color: #FFF;
+    color: red;
   }
   
   @media (max-width: 850px) {
