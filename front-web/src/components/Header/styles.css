@@ -1,6 +1,6 @@
 .main-header {
-    height: 20px;
-    padding: 20px 40px;
+    height: 30px;
+    padding: 20px 30px;
     display: flex;
     background-color: var(--color-darkslategray);
   }
