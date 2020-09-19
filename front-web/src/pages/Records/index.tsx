@@ -5,7 +5,7 @@ import axios from 'axios';
 import { RecordsResponse } from './types';
 import Pagination from './Pagination';
 import Filters from '../../components/Filters'
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://sds1-joaov.herokuapp.com';
 const Records = () => {
     const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>();
     const [activePage, setActivePage] = useState(0);

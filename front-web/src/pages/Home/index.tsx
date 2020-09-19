@@ -19,7 +19,7 @@ const Home = () => (
                         QUERO SABER QUAIS SÃO
                 </button>
                     <div className="home-btn-icon">
-                        <Arrow></Arrow>
+                        <Arrow />
                     </div>
 
 

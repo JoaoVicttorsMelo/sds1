@@ -17,7 +17,7 @@ const initialPieData = {
     labels: [],
     series: []
 }
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://sds1-joaov.herokuapp.com';
 
 
 const Charts = () => {
@@ -82,7 +82,7 @@ const Charts = () => {
                     </h2>
                     <Chart
                         options={{ ...pieOptions, labels: genderData?.labels }}
-                        type="donut"
+                        type="pie"
                         series={genderData?.series}
                         width="290"
                         height="270"

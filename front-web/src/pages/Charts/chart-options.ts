@@ -47,7 +47,7 @@ export const barOptions = {
             horizontal: true,
             endingShape: "rounded",
             startingShape: "rounded",
-            barHeight: "40px",
+            barHeight: "60px",
         },
     },
     dataLabels: {
@@ -73,7 +73,7 @@ export const barOptions = {
                 maxWidth: 360,
                 style: {
                     colors: "#00D4FF",
-                    fontSize: "20px",
+                    fontSize: "18px",
                     fontFamily: "Play, sans-serif",
                     fontWeight: 700,
                 },
