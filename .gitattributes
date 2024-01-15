@@ -1,4 +1,4 @@
 * linguist-vendored
-*.typescript linguist-vendored=true
+*.ts linguist-vendored=true
 *.java linguist-vendored=false
 *.java linguist-detectable=true
